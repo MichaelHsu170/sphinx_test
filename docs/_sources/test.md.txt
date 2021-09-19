@@ -3,14 +3,55 @@ Introduction
 
 ## Para1
 
-safdsadfsadfasdfsdafasdf
+saf __dsad__ fsadfa ___sdfs___ dafasdf
 
 ## Para2
 
-This text includes a smiley face |:smile:| and a snake too! |:snake:|
+This *text* **includes** a ***smiley*** _face_ |:smile:| and a snake too! |:snake:|
 
 | Version | Python 3.6 | Python 3.7 | Python 3.8 | Python 3.9 |
 | :--: | :--: | :--: | :--: | :--: |
 | 1.x.0 | ✓ | ✓ | ✓ | ✓ |
 | 1.x.0 |  | ✓ |  |  |
 
+### Para3
+
+asdfasdfasdfasdf
+
+---
+
+## Styles
+
+--TEST--
+
+<u>underlined texts</u>
+
+## List
+
+* item1
+    - subitem1
+* item2
+    - subitem2
+* item3
+
+1. item4
+    - item 7
+2. item5
+    - item 8
+3. item6
+
+## Codesnipt
+
+```javascript
+$(document).ready(function () {
+	    alert('RUNOOB');
+});
+```
+## Link
+
+This is a test link [test](https://www.google.com)
+
+## Image
+
+COMAC C919
+![COMAC C919](https://imgproc.airliners.net/photos/airliners/7/0/8/5357807.jpg?v=v47032dda91a)

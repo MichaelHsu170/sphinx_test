@@ -29,6 +29,9 @@
         <div class="wy-side-nav-search" >
             <a href="index.html" class="icon icon-home"> Sphinx Test
           </a>
+              <div class="version">
+                1.0.0
+              </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -37,11 +40,18 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul class="current">
+              <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Introduction</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#para1">Para1</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#para2">Para2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#para2">Para2</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#para3">Para3</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#styles">Styles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#list">List</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#codesnipt">Codesnipt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#link">Link</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#image">Image</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="test1.html">emoji test</a></li>
@@ -76,11 +86,11 @@
 <h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline"></a></h1>
 <section id="para1">
 <h2>Para1<a class="headerlink" href="#para1" title="Permalink to this headline"></a></h2>
-<p>safdsadfsadfasdfsdafasdf</p>
+<p>saf <strong>dsad</strong> fsadfa <em><strong>sdfs</strong></em> dafasdf</p>
 </section>
 <section id="para2">
 <h2>Para2<a class="headerlink" href="#para2" title="Permalink to this headline"></a></h2>
-<p>This text includes a smiley face |:smile:| and a snake too! |:snake:|</p>
+<p>This <em>text</em> <strong>includes</strong> a <em><strong>smiley</strong></em> <em>face</em> |:smile:| and a snake too! |:snake:|</p>
 <table border="1" class="docutils">
 <thead>
 <tr>
@@ -107,7 +117,63 @@
 <td align="center"></td>
 </tr>
 </tbody>
-</table></section>
+</table><section id="para3">
+<h3>Para3<a class="headerlink" href="#para3" title="Permalink to this headline"></a></h3>
+<p>asdfasdfasdfasdf</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="styles">
+<h2>Styles<a class="headerlink" href="#styles" title="Permalink to this headline"></a></h2>
+<p>–TEST–</p>
+<p><u>underlined texts</u></p>
+</section>
+<section id="list">
+<h2>List<a class="headerlink" href="#list" title="Permalink to this headline"></a></h2>
+<ul class="simple">
+<li><p>item1</p>
+<ul>
+<li><p>subitem1</p></li>
+</ul>
+</li>
+<li><p>item2</p>
+<ul>
+<li><p>subitem2</p></li>
+</ul>
+</li>
+<li><p>item3</p></li>
+</ul>
+<ol class="simple">
+<li><p>item4</p>
+<ul class="simple">
+<li><p>item 7</p></li>
+</ul>
+</li>
+<li><p>item5</p>
+<ul class="simple">
+<li><p>item 8</p></li>
+</ul>
+</li>
+<li><p>item6</p></li>
+</ol>
+</section>
+<section id="codesnipt">
+<h2>Codesnipt<a class="headerlink" href="#codesnipt" title="Permalink to this headline"></a></h2>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+	    <span class="nx">alert</span><span class="p">(</span><span class="s1">&#39;RUNOOB&#39;</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+</section>
+<section id="link">
+<h2>Link<a class="headerlink" href="#link" title="Permalink to this headline"></a></h2>
+<p>This is a test link <a class="reference external" href="https://www.google.com">test</a></p>
+</section>
+<section id="image">
+<h2>Image<a class="headerlink" href="#image" title="Permalink to this headline"></a></h2>
+<p>COMAC C919
+<img alt="COMAC C919" src="https://imgproc.airliners.net/photos/airliners/7/0/8/5357807.jpg?v=v47032dda91a" /></p>
+</section>
 </section>
 
 

@@ -4,20 +4,14 @@
    contain the root `toctree` directive.
 
 Welcome to Sphinx Test's documentation!
-=======================================
+#######################################
+
+Welcome to the project.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :hidden:
+   :maxdepth: 1
 
    test
-   test1
+   emoji test<test1>
    api_doc
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

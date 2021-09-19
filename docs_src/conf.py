@@ -23,6 +23,7 @@ copyright = '2021, MH'
 author = 'MH'
 
 # The full version, including alpha/beta/rc tags
+version = '1.0.0'
 release = '1.0.0'
 
 
@@ -62,3 +63,20 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named 'default.css' will overwrite the builtin 'default.css'.
 html_static_path = ['_static']
+
+from os import getenv
+
+sphinx_md_useGitHubURL = True
+baseBranch = "main"
+commitSHA = getenv('GITHUB_SHA')
+githubBaseURL = 'https://github.com/' + (getenv('GITHUB_REPOSITORY') or 'MichaelHsu170/sphinx_test') + '/'
+githubFileURL = githubBaseURL + "blob/"
+githubDirURL = githubBaseURL + "tree/"
+if commitSHA:
+    githubFileURL = githubFileURL + commitSHA + "/"
+    githubDirURL = githubDirURL + commitSHA + "/"
+else:
+    githubFileURL = githubFileURL + baseBranch + "/"
+    githubDirURL = githubDirURL + baseBranch + "/"
+sphinx_md_githubFileURL = githubFileURL
+sphinx_md_githubDirURL = githubDirURL
