@@ -1,0 +1,4 @@
+docs/.buildinfo
+docs/.doctrees
+docs_src/_build/
+__pycache__

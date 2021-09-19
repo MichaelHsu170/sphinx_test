@@ -11,6 +11,7 @@ Welcome to Sphinx Test's documentation!
    :caption: Contents:
 
    test
+   test1
    api_doc
 
 
