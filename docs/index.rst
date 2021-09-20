@@ -12,6 +12,6 @@ Welcome to the project.
    :hidden:
    :maxdepth: 1
 
-   test
+   test/test
    emoji test<test1>
    api_doc
