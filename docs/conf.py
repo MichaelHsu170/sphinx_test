@@ -64,6 +64,9 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named 'default.css' will overwrite the builtin 'default.css'.
 html_static_path = ['_static']
 
+def setup(app):
+   app.add_css_file("custom.css")
+
 from os import getenv
 
 sphinx_md_useGitHubURL = True
